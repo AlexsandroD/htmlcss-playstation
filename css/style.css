@@ -50,9 +50,16 @@ footer{
     /* background-attachment: fixed; */
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;}
+#banner{
+    height: 500px;
+    background-image:url(../img/it-takes-two-hero-banner-desktop.jpg);
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    
-}
+}   
+
 
 /* ----fine jumbo----  */
 
@@ -67,6 +74,9 @@ footer{
 
 .ms_rounded{
     border-radius: 20px;
+}
+.ms_c-blue{
+    color:#0B78D0 ;
 }
 
 

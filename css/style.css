@@ -14,6 +14,8 @@ footer{
     height: 300px;
 }
 
+/* ---header--- */
+
 #header-top{
     background-color: black;
     height: 30px;
@@ -24,6 +26,8 @@ footer{
     height:10px;
     text-align: right;
 }
+
+/* ---nav-bar---  */
 #navbarNavDropdown{
      justify-content: space-between;
  }
@@ -36,9 +40,21 @@ footer{
   margin-right: 10px;
   
 }
-.jumbo{
-    height: 500px;
+/* ---fine nav---  */
+
+/* ---jumbo section----  */
+
+#jumbo-1{
+    height: 550px;
+    background-image:url(../img/jumbo-bg.png);
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
+
+
 /* MY-classes  */
 
 .ms_h100{
@@ -49,9 +65,9 @@ footer{
 
 /* #### DEBUG AREA #####  */
 
-.debug .jumbo{
+/* .debug .jumbo{
     background-color: yellow;
-}
+} */
 
 .debug footer{
     background-color: blue;

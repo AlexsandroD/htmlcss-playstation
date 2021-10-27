@@ -21,11 +21,11 @@ footer{
     height: 30px;
 }
 
-#header-top img{
+/* #header-top img{
     width:120px;
     height:10px;
     text-align: right;
-}
+} */
 
 /* ---nav-bar---  */
 #navbarNavDropdown{
@@ -54,11 +54,19 @@ footer{
     
 }
 
+/* ----fine jumbo----  */
 
 /* MY-classes  */
 
 .ms_h100{
-    height: 100%;
+    height: 100%;}
+
+.ms_bg-orange{
+    background: #CD3C0E;
+}
+
+.ms_rounded{
+    border-radius: 20px;
 }
 
 

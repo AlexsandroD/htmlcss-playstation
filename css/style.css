@@ -8,13 +8,34 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
-#header-top{
-    height: 50px;
-    background-color: black;
+
+
+footer{
+    height: 300px;
 }
- #navbarNavDropdown{
+
+#header-top{
+    background-color: black;
+    height: 30px;
+}
+
+#header-top img{
+    width:120px;
+    height:10px;
+    text-align: right;
+}
+#navbarNavDropdown{
      justify-content: space-between;
  }
+
+.navbar i{
+  color: black;
+  font-size: 1.3rem;
+  padding: 8px;
+  margin-left: 25px;
+  margin-right: 10px;
+  
+}
 .jumbo{
     height: 500px;
 }
@@ -24,9 +45,7 @@ body{
     height: 100%;
 }
 
-.footer{
-    height: 300px;
-}
+
 
 /* #### DEBUG AREA #####  */
 

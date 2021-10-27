@@ -1,3 +1,4 @@
+/* commons  */
 *{
     margin: 0;
     padding: 0;
@@ -7,3 +8,32 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+#header-top{
+    height: 50px;
+    background-color: black;
+}
+ #navbarNavDropdown{
+     justify-content: space-between;
+ }
+
+/* MY-classes  */
+
+.ms_h100{
+    height: 100%;
+}
+
+/* #### DEBUG AREA #####  */
+
+.debug #jumbo{
+    height: 500px;
+    background-color: yellow;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border: 1px solid black;
+    margin: 5px 10px;
+}
+

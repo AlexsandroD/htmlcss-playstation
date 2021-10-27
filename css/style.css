@@ -15,25 +15,37 @@ body{
  #navbarNavDropdown{
      justify-content: space-between;
  }
-
+.jumbo{
+    height: 500px;
+}
 /* MY-classes  */
 
 .ms_h100{
     height: 100%;
 }
 
+.footer{
+    height: 300px;
+}
+
 /* #### DEBUG AREA #####  */
 
-.debug #jumbo{
-    height: 500px;
+.debug .jumbo{
     background-color: yellow;
 }
 
+.debug footer{
+    background-color: blue;
+}
+
+.green{
+    background-color: green;
+}
+
 .box{
-    width: 150px;
+  
     height: 150px;
     background-color: red;
     border: 1px solid black;
-    margin: 5px 10px;
 }
 

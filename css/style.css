@@ -9,9 +9,12 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+li{
+    list-style: none;
+}
 
-footer{
-    height: 300px;
+a{
+    text-decoration: none;
 }
 
 /* ---header--- */
@@ -21,6 +24,10 @@ footer{
     height: 30px;
 }
 
+.globe{
+    width: 40px;
+    height: 40px;
+}
 /* #header-top img{
     width:120px;
     height:10px;
@@ -79,6 +86,18 @@ footer{
     color:#0B78D0 ;
 }
 
+.ms_bg-night-blue{
+    background-color: #00439C;
+}
+
+.ms_bg-dark-blue{
+    background-color: #161C3B;
+}
+
+.ms_bg-light-gray{
+ background-color: #BEBCBB;
+}
+
 
 
 /* #### DEBUG AREA #####  */
@@ -87,18 +106,18 @@ footer{
     background-color: yellow;
 } */
 
-.debug footer{
+/* .debug footer{
     background-color: blue;
-}
+} */
 
-.green{
+/* .green{
     background-color: green;
-}
+} */
 
-.box{
+/* .box{
   
     height: 150px;
     background-color: red;
     border: 1px solid black;
-}
+} */
 

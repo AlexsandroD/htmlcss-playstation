@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition: 0.3s ease !important;
 }
 
 body{
@@ -59,7 +60,9 @@ a{
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;}
+    background-size: cover;
+    background-position-y:80px ;
+}
 #banner{
     height: 500px;
     background-image:url(../img/it-takes-two-hero-banner-desktop.jpg);
@@ -115,38 +118,33 @@ a{
 
 /* ---carousel---- */
 
-
-
 .carousel-inner img {
-    width: 100%;
-    height: 100%
+    width: 80%;
+    height: 80%;
+    padding:0px 10px;
 }
 
-#custCarousel .carousel-indicators {
-    position: static;
-    margin-top: 20px
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-image: none;
 }
 
-#custCarousel .carousel-indicators>li {
-    width: 100px
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color:#00439C;
 }
 
-#custCarousel .carousel-indicators li img {
-   
-    opacity: 0.5
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color:#00439C ;
 }
 
-#custCarousel .carousel-indicators li.active img {
-    opacity: 1
-}
 
-#custCarousel .carousel-indicators li:hover img {
-    opacity: 0.75
-}
-
-.carousel-item img {
-    width:80%
-}
 #thumbnail{
     position:relative;
 }
@@ -157,16 +155,16 @@ a{
     height:3px;
     margin: auto;
     width:90%;
-    background-color: blue;
+    background-color: #0B78D0;
  }
 /* ---carousel---- */
 /* ----hover section---- */
 
 .hover-btn:hover{
-    outline: 4px solid #CD3C0E;
-    transform:translateY(-8px);
+    outline: 2px solid #CD3C0E;
+    /* transform:translateY(-8px); */
     transition:0.3s;
-    outline-offset: 10px;
+    outline-offset: 5px;
 }
 
 section .hover:hover img{

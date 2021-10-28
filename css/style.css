@@ -28,11 +28,13 @@ a{
     width: 40px;
     height: 40px;
 }
-/* #header-top img{
+#header-top img{
     width:120px;
     height:10px;
-    text-align: right;
-} */
+    position:absolute;
+    right:0;
+    z-index: 2;
+}
 
 /* ---nav-bar---  */
 #navbarNavDropdown{
@@ -54,14 +56,14 @@ a{
 #jumbo-1{
     height: 550px;
     background-image:url(../img/jumbo-bg.png);
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;}
 #banner{
     height: 500px;
     background-image:url(../img/it-takes-two-hero-banner-desktop.jpg);
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -98,6 +100,32 @@ a{
  background-color: #BEBCBB;
 }
 
+.mn_p-fixed{
+    position: fixed;
+    right: 0;
+    left: 0;
+    top:30px;
+    z-index: 2;
+}#CD3C0E
+
+.hover-btn:hover{
+    outline: 4px solid #CD3C0E;
+    transform:translateY(-8px);
+    transition:0.3s;
+    outline-offset: 10px;
+}
+
+section .hover:hover img{
+    outline: 3px solid #0B78D0;
+    transform:translateY(-8px);
+    transition:0.3s;
+    outline-offset: 5px;
+}
+
+
+
+
+/* ----/MY STYLE---- */
 
 
 /* #### DEBUG AREA #####  */

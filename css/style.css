@@ -167,6 +167,27 @@ a{
     outline-offset: 5px;
 }
 
+.hover-btn-blue:hover{
+    outline: 2px solid #0B78D0;
+    /* transform:translateY(-8px); */
+    transition:0.3s;
+    outline-offset: 5px;
+}
+
+.btn-black{
+    outline: 2px solid #1C1F23;
+    /* transform:translateY(-8px); */
+    transition:0.3s;
+    outline-offset: 5px;
+    font-weight: 600;
+}
+
+.tm{
+    font-size: 8px;
+    position:relative;
+    bottom: 8px;
+}
+
 section .hover:hover img{
     outline: 3px solid #0B78D0;
     transform:translateY(-8px);

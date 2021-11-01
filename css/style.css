@@ -50,6 +50,54 @@ a{
   margin-right: 10px;
   
 }
+/* SEARCH FUNCTION */
+
+#search-icon {
+  font-size: 1.5rem;
+  
+  margin-left: 15px;
+  transition: color 0.3s ease-out;
+}
+
+#search-icon:hover {
+  color: #3498db;
+  cursor: pointer;
+}
+
+.search {
+  transform: translate(-35%);
+  -webkit-transform: translate(-35%);
+  transition: transform 0.7s ease-in-out;
+  color: #3498db;
+}
+
+.no-search {
+  transform: translate(0);
+  transition: transform 0.7s ease-in-out;
+}
+
+.search-input {
+  position: absolute;
+  top: 10px;
+  right: 68px;
+  opacity: 0;
+  z-index: -1;
+  transition: opacity 0.6s ease;
+  width:250px;
+}
+
+.search-active {
+  opacity: 1;
+  z-index: 0;
+}
+
+input {
+  border: 0;
+  border-left: 1px solid #ccc;
+  border-radius: 0; /* FOR SAFARI */
+  outline: 0;
+  padding: 8px;
+}
 /* ---mega area--- */
 .menu-area{
   position:static;
@@ -202,27 +250,18 @@ a{
   color:#00439C ;
 }
 
-.modal-dialog{
-width: 50%;
- position: absolute;
- left: 25%;
- right: 25%;
-padding:0;
-margin: 0;
- 
-
-}
 
 #thumbnail{
     position:relative;
 }
 
- #thumbnail .col:hover::after{
-    position: absolute;
+ #thumbnail .col:hover::before{
+    position:absolute;
     content: '';
     height:3px;
-    margin: auto;
-    width:90%;
+    left: 0;
+    bottom: 0;
+    width:100%;
     background-color: #0B78D0;
  }
 /* ---carousel---- */
@@ -302,54 +341,7 @@ footer ul{
 /* ----FINE SCROLL BAR--- */
 
 
-/* SEARCH FUNCTION */
 
-#search-icon {
-    font-size: 1.5rem;
-    
-    margin-left: 15px;
-    transition: color 0.3s ease-out;
-  }
-  
-  #search-icon:hover {
-    color: #3498db;
-    cursor: pointer;
-  }
-  
-  .search {
-    transform: translate(-35%);
-    -webkit-transform: translate(-35%);
-    transition: transform 0.7s ease-in-out;
-    color: #3498db;
-  }
-  
-  .no-search {
-    transform: translate(0);
-    transition: transform 0.7s ease-in-out;
-  }
-  
-  .search-input {
-    position: absolute;
-    top: 10px;
-    right: 68px;
-    opacity: 0;
-    z-index: -1;
-    transition: opacity 0.6s ease;
-    width:250px;
-  }
-  
-  .search-active {
-    opacity: 1;
-    z-index: 0;
-  }
-  
-  input {
-    border: 0;
-    border-left: 1px solid #ccc;
-    border-radius: 0; /* FOR SAFARI */
-    outline: 0;
-    padding: 8px;
-  }
 
 /* #### DEBUG AREA #####  */
 

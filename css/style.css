@@ -50,6 +50,9 @@ a{
   margin-right: 10px;
   
 }
+.navbar a{
+  padding-left:5px;
+}
 /* SEARCH FUNCTION */
 
 #search-icon {
@@ -98,6 +101,8 @@ input {
   outline: 0;
   padding: 8px;
 }
+/* ---fine search section----  */
+
 /* ---mega area--- */
 .menu-area{
   position:static;
@@ -214,10 +219,6 @@ input {
     left: 0;
     top:0px;
     z-index: 2;
-}
-
-.neg-m{
-  margin-top-3px;
 }
 
 /* ----fine my classes-----  */

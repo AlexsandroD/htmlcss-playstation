@@ -50,6 +50,60 @@ a{
   margin-right: 10px;
   
 }
+/* ---mega area--- */
+.menu-area{
+  position:static;
+
+}
+
+.mega-area{
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  padding: 15px;
+  text-align: center;
+
+}
+
+.dropdown-item{
+  padding:4px 0;
+}
+
+.mega-area ul li{
+  list-style: none;
+}
+
+.mega-area ul li:not(.not-for){
+  margin: 0 25px;
+  display: inline-block;
+}
+
+.bottom-list li::before{
+  content: "\2022";
+  color: blue;
+  font-size: 2rem;
+  margin-right: 10px;
+}
+
+.mega-area ul li img{
+  width: 100px;
+}
+
+
+.bottom-list li a{
+ text-decoration: none;
+ color: black;
+ font-size: 1.7rem;
+
+}
+
+.m-neg{
+  margin-top: -3px !important;
+}
+
+/* ---fine mega menu---  */
+
 /* ---fine nav---  */
 
 /* ---jumbo section----  */
@@ -114,6 +168,10 @@ a{
     z-index: 2;
 }
 
+.neg-m{
+  margin-top-3px;
+}
+
 /* ----fine my classes-----  */
 
 /* ---carousel---- */
@@ -145,11 +203,14 @@ a{
 }
 
 .modal-dialog{
-    height:50% !important;
-    width:50% !important;
-    padding-top: 10%;
-    transform: scale(0.50);
-    
+width: 50%;
+ position: absolute;
+ left: 25%;
+ right: 25%;
+padding:0;
+margin: 0;
+ 
+
 }
 
 #thumbnail{
@@ -274,6 +335,7 @@ footer ul{
     opacity: 0;
     z-index: -1;
     transition: opacity 0.6s ease;
+    width:250px;
   }
   
   .search-active {
